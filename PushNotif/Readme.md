@@ -105,11 +105,11 @@ Note that there's still room for improvement for using docker to avoid downloadi
 
 ```bash
 cd android
-./gradlew assembleRelease
+./gradlew assembleDebug
 ```
 
 The process will take a while as it downloading and installing some dependencies.
-When it finished, you can find the apk at `android/app/build/outputs/apk`.
+When it finished, you can find the apk at `android/app/build/outputs/apk/debug/`.
 
 
 And that's it. Enjoy! ^_^
