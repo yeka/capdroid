@@ -6,7 +6,9 @@
 - NPM
 - Android SDK
 
-### 1.a. Docker Node Environment
+or just [Docker](https://www.docker.com/)
+
+### 1.a. Docker NodeJS Environment
 
 If you have node environment on you local machine, you can skip this part.
 Otherwise, you can utilize docker by running this command first:
