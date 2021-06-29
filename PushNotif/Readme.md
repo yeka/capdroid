@@ -12,6 +12,7 @@ or just [Docker](https://www.docker.com/)
 
 If you have node environment on you local machine, you can skip this part.
 Otherwise, you can utilize docker by running this command first:
+
 ```bash
 docker run -it --rm -v $PWD:/app -w /app -p 5000:5000 -p 35729:35729 node:latest bash
 ```
@@ -71,7 +72,7 @@ Then add android platform:
 npx cap add android
 ```
 
-Copy the `google-services.json` into `android/` folder.
+Copy the `google-services.json` into `android/app/` folder.
 
 
 ### 4. Adjust The Web
@@ -80,6 +81,7 @@ Make changes to the `src/App.svelte` to test push notif functionality. You can c
 
 After making changes to the web, run this command:
 ```bash
+npm run build
 npx cap sync
 ```
 
